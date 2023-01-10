@@ -8,3 +8,283 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+
+body{
+    margin: 0;
+    background-color:#540B51;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#slackLogo{
+    width:100px;
+}
+
+nav, header, section, footer{
+    padding:30px;
+}
+
+nav {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    border-bottom: 1px solid white;
+    padding: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  nav button {
+   background-color:#540B51;
+   border: 0px;
+  }
+
+  nav ul li a {
+    color:white;
+    display:none;
+
+  }
+
+
+  header{
+    display:flex;
+    flex-direction:column;
+    color:white;
+    text-align:center;
+  }
+
+  header h1 {
+    font-size:3.5em;
+    text-align:center;
+  }
+
+  .yellow {
+    color: #ECB12F;
+    font-weight:bold;
+  }
+
+
+  #signUpGoogleBtn {
+    width:90%;
+    height:80px;
+    background-color:#4285F4;
+    color:#fff;
+    text-transform: uppercase;
+    font-size:1.1em;
+    font-weight: bold;
+    margin: 10px auto;
+    display:flex;
+    align-items:center;
+    gap:25%;
+    border-radius: 5px;
+  }
+
+  #signUpGoogleBtn img {
+    width: 30px;
+    background:white;
+    padding:10px;
+  }
+
+
+
+  #heroImageCtn {
+    background-image: url("../images/hero-product-ui.png");
+    background-size:cover;
+    height:600px;
+    width:80vw;
+
+  }
+
+  #connectednessImageCtn {
+    background-image: url("../images/connectedness-mobile.png");
+    background-size:cover;
+    height:800px;
+    width:80vw;
+ 
+
+  }
+
+  
+  #flexibilityImageCtn {
+    background-image: url("../images/flexibility-mobile.png");
+    background-size:cover;
+    height:800px;
+    width:80vw;
+
+
+}
+
+#speedImageCtn {
+    background-image: url("../images/speed-mobile.png");
+    background-size:cover;
+    height:800px;
+    width:80vw;
+
+}
+
+
+  
+  main {
+    background-color:#F3EAE2;
+    color:black;
+  }
+
+main h2 {
+font-size:2.5em;
+}
+
+main section div {
+    padding:20px;
+    }
+
+    a{
+        color:#2E71A6;
+        font-size:1.5em;
+        text-decoration: none;
+    }
+
+    a:after {
+        content:url("../images/icon-arrow-right.png");
+    margin: 0 10px 0 0;
+    }
+
+
+
+  #trustedCompanies p {
+    text-transform:uppercase;
+    text-align:center;
+    font-size:1.5em;
+    font-weight:bold;
+  }
+
+  #trustedCompanies img {
+    height:50px;
+    margin:20px;
+  }
+
+ 
+
+
+
+#teamLarge {
+    background-color:white;
+}
+
+#teamLarge h3 {
+    font-size:2.5em;
+    text-align:center;
+}
+
+#teamLarge p {
+    text-align:center;
+}
+
+
+#purpleBtn{
+    width:90%;
+    height:80px;
+    background-color:#540B51;
+    border: 1px solid #fff;
+    color:#fff;
+    text-transform: uppercase;
+    font-size:1.1em;
+    font-weight: bold;
+    margin: 10px auto;
+  }
+
+  #whiteBtn {
+    width:90%;
+    height:80px;
+    background-color:#fff;
+    color:#540B51;
+    border: 1px solid #540B51;
+    text-transform: uppercase;
+    font-size:1.1em;
+    font-weight: bold;
+    margin: 10px auto;
+  }
+
+
+#teamLarge ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:80%;
+    margin: 0 auto;
+}
+
+#teamLarge ul li p:first-child{
+    color:#540B51;
+    font-size:4em;
+    font-weight:bold;
+    margin: 0 auto;
+}
+
+#teamLarge ul li p{
+    font-weight:bold;
+}
+
+#welcome {
+    background-color:#540B51;
+}
+
+#welcome h3 {
+    color:#fff;
+    font-size:2.5em;
+    text-align:center;
+}
+
+footer{
+    background-color:white;
+
+}
+
+footer img:first-child{
+    width:50px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+footer ul li:first-child {
+    font-weight:bold;
+}
+
+footer div {
+    display:flex;
+    justify-content:space-between;
+}
+
+footer div ul li {
+    margin: 20px 0px;
+}
+
+#status li {
+margin:15px; 0px;
+font-weight:bold;
+}
+
+#status li:last-child{
+    color:#2E71A6;
+}
+
+#status li:last-child:before{
+    content:url("../images/icon-download.png");
+    margin: 0 10px 0 0;
+}
+
+#social {
+    display:flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
