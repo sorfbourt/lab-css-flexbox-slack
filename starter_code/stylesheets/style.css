@@ -16,631 +16,297 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+header {
+  padding:20px 50px 0px 50px;
+}
+
+#section-trustedCompanies {
+  padding:20px 50px;
+}
+
+#section-teamsLarge {
+  padding:20px 50px;
+  background-color:white;
+}
+
+#section-welcome{
+  padding:20px 50px;
+  background-color:#540B51;
+}
+
+footer{
+  padding:20px 50px;
+  background-color:#fff;
+}
+
+#section-bringYourTeamTogether, #section-moveFaster, #section-chooseHow{
+  padding: 20px 0px;
+  }
+  
+  #section-bringYourTeamTogether-text, #section-moveFaster-text,#section-chooseHow-text{
+    margin: 0px 100px;
+  }
+
+
 #slackLogo{
     width:100px;
 }
 
-nav, header, section, footer{
-    padding:50px;
+#ImgCtn-hero-product-ui {
+  background-image: url("../images/hero-product-ui.png");
+  background-size:90%;
+  background-repeat: no-repeat;
+  height:300px;
+  width:100vw;
+
+}
+
+#ImgCtn-connectedness {
+  background-image: url("../images/connectedness-mobile.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height:500px;
+  width:100vw;
+
+}
+
+#ImgCtn-flexibility {
+  background-image: url("../images/flexibility-mobile.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  height:500px;
+  width:100vw;
+  background-position:right;
+
+}
+
+#ImgCtn-speed {
+  background-image: url("../images/speed-mobile.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  height:500px;
+  width:100vw;
+
+}
+
+.ImgCtn {
+  
 }
 
 nav {
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    border-bottom: 1px solid white;
-    padding: 30px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  border-bottom: 1px solid white;
+  padding:20px 50px; 
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
-  }
-
-  nav button {
-   background-color:#540B51;
-   border: 0px;
-  }
-
-  nav ul li a {
-    color:white;
-    display:none;
-
-  }
-
-
-  header{
-    display:flex;
-    flex-direction:column;
-    color:white;
-    text-align:center;
-  }
-
-  header h1 {
-    font-size:3.5em;
-    text-align:center;
-  }
-
-  .yellow {
-    color: #ECB12F;
-    font-weight:bold;
-  }
-
-
-  #signUpGoogleBtn {
-    width:90%;
-    height:80px;
-    background-color:#4285F4;
-    color:#fff;
-    text-transform: uppercase;
-    font-size:1.1em;
-    font-weight: bold;
-    margin: 10px auto;
-    display:flex;
-    align-items:center;
-    gap:25%;
-    border-radius: 5px;
-  }
-
-  #signUpGoogleBtn img {
-    width: 30px;
-    background:white;
-    padding:10px;
-  }
-
-  .purpleBtn{
-    width:90%;
-    height:80px;
-    background-color:#540B51;
-    border: 1px solid #fff;
-    color:#fff;
-    text-transform: uppercase;
-    font-size:1.1em;
-    font-weight: bold;
-    margin: 10px auto;
-    border-radius: 5px;
-  }
-
-  .whiteBtn {
-    width:90%;
-    height:80px;
-    background-color:#fff;
-    color:#540B51;
-    border: 1px solid #540B51;
-    text-transform: uppercase;
-    font-size:1.1em;
-    font-weight: bold;
-    margin: 10px auto;
-    border-radius: 5px;
-  }
-
-  #heroImageCtn {
-    background-image: url("../images/hero-product-ui.png");
-    background-size:cover;
-    height:600px;
-    width:80vw;
-
-  }
-
-  #connectednessImageCtn {
-    background-image: url("../images/connectedness-mobile.png");
-    background-size:cover;
-    height:800px;
-    width:80vw;
- 
-
-  }
-
-  
-  #flexibilityImageCtn {
-    background-image: url("../images/flexibility-mobile.png");
-    background-size:cover;
-    height:800px;
-    width:80vw;
-
-
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display:none;
 }
 
-#speedImageCtn {
-    background-image: url("../images/speed-mobile.png");
-    background-size:cover;
-    height:800px;
-    width:80vw;
-
+nav ul li a {
+  color:white;  
 }
 
-  
-  main {
-    background-color:#F3EAE2;
-    color:black;
-  }
+nav button {
+  background-color:#540B51;
+  border: 0px;
+ }
+
+ header{
+  display:flex;
+  flex-direction:column;
+  color:white;
+  text-align:center;
+}
+
+header h1 {
+  font-size:3.5em;
+}
+
+.yellow {
+  color: #ECB12F;
+  font-weight:bold;
+}
+
+main {
+  background-color:#F3EAE2;
+  color:black;
+}
 
 main h2 {
-font-size:2.5em;
-}
-
-main section div {
-    padding:20px;
-    }
-
-    a{
-        color:#2E71A6;
-        font-size:1.5em;
-        text-decoration: none;
-    }
-
-    a.blueArrow:after {
-        content:url("../images/icon-arrow-right.png");
-    margin: 0 10px 0 0;
-    }
-
-  #companyLogos {
-    text-align: center;
+  font-size:2em;
   }
+  
 
-  #trustedCompanies p {
-    text-transform:uppercase;
-    text-align:center;
-    font-size:1.5em;
-    font-weight:bold;
-  }
-
-  #trustedCompanies img {
-    height:50px;
-    margin:20px;
-  }
-
- 
-#teamLarge {
-    background-color:white;
+#companyLogos {
+  text-align: center;
 }
 
-#teamLarge h3 {
-    font-size:2.5em;
-    text-align:center;
+#section-trustedCompanies img {
+  height:50px;
+  margin:20px;
 }
 
-#teamLarge p {
-    text-align:center;
+#section-trustedCompanies p {
+  text-transform:uppercase;
+  text-align:center;
+  font-size:1.5em;
+  font-weight:bold;
 }
 
 
-#teamLarge ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width:80%;
-    margin: 0 auto;
+main a.blueArrow {
+  color:#2E71A6;
+  font-size:1.25em;
+  text-decoration: none;
 }
 
-#teamLarge ul li p:first-child{
-    color:#540B51;
-    font-size:4em;
-    font-weight:bold;
-    margin: 0 auto;
+main a.blueArrow:after {
+  content:url("../images/icon-arrow-right.png");
+margin: 0 10px 0 0;
 }
 
-#teamLarge ul li p{
-    font-weight:bold;
+
+#section-teamsLarge h3 {
+  font-size:2em;
+  text-align:center;
 }
 
-#welcome {
-    background-color:#540B51;
+#section-teamsLarge ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:80%;
+  margin: 50px auto;
+  display:flex;
 }
 
-#welcome h3 {
-    color:#fff;
-    font-size:2.5em;
-    text-align:center;
+#section-teamsLarge ul li p:first-child{
+  color:#540B51;
+  font-size:4em;
+  font-weight:bold;
+  margin: 0 auto;
 }
 
-footer{
-    background-color:white;
-
+#section-teamsLarge ul li p{
+  font-weight:bold;
 }
+
+
+
+
+#section-welcome h3 {
+  color:#fff;
+  font-size:2.5em;
+  text-align:center;
+}
+
+
+
 
 footer img:first-child{
-    width:50px;
+  width:50px;
 }
 
 footer ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
-  }
+  list-style-type: none;
+  margin: 10p0;
+  padding: 0;
+  
+}
 
 footer ul li:first-child {
-    font-weight:bold;
+  font-weight:bold;
 }
 
 footer div {
-    display:flex;
-    justify-content:space-between;
+  display:flex;
+  justify-content:space-between;
 }
 
 footer div ul li {
-    margin: 20px 0px;
+  margin: 20px 0px;
 }
 
-#status li {
+footer #footer-status {
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+footer #footer-status li {
 margin:15px 10px;
 font-weight:bold;
 }
 
-#status li:last-child{
-    color:#2E71A6;
+footer #footer-status li:last-child{
+  color:#2E71A6;
 }
 
-#status li:last-child:before{
-    content:url("../images/icon-download.png");
-    margin: 0 10px 0 0;
+footer #footer-status li:last-child:before{
+  content:url("../images/icon-download.png");
+  margin: 0 10px 0 0;
 }
 
-#social {
-    display:flex;
-    justify-content: space-between;
-    padding: 15px 0;
+footer #social {
+  display:flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+footer #social li {
+  margin: 15px;
+}
+
+.whiteBtn-wide{
+  height:80px;
+  width:90%;
+  background-color:#fff;
+  color:#540B51;
+  border: 1px solid #540B51;
+  text-transform: uppercase;
+  font-size:1.1em;
+  font-weight: bold;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+
+.purpleBtn-wide{
+  height:80px;
+  width:90%;
+  background-color:#540B51;
+  color:#fff;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  font-size:1.1em;
+  font-weight: bold;
+  margin: 10px 0px;
+  border-radius: 5px;
 }
 
 
+#signUpGoogleBtn {
+  height:80px;
+  width:90%;
+  background-color:#4285F4;
+  color:#fff;
+  text-transform: uppercase;
+  font-size:1.1em;
+  font-weight: bold;
+  margin: 10px 0px;
+  display:flex;
+  align-items:center;
+  gap:25%;
+  border-radius: 5px;
+}
 
-@media (min-width: 768px) and (max-width: 1024px) {
-/*
-    nav {
-      background-color: green;
-    } */
-   
-    header {
-        display:flex;
-        flex-direction:row;
-    }
-
-    header{
-        text-align:left;
-      }
-    
-      header h1 {
-        font-size:3.5em;
-        text-align:left;
-      }
-      #trustedCompanies img {
-        height:30px;
-
-      }
-
-      #teamLarge div {
-        display:flex;
-        justify-content: space-around;
-        gap:10px;
-      }
-
-      #teamLarge ul{ 
-        display:flex;
-      }
-
-      #status {
-        display:flex;
-        font-size:1em;
-      }
-
-      #social {
-        display:flex;
-        justify-content: flex-start;
-        gap:40px;
-        padding: 15px 15px;
-    }
-
-  }
-
-
-  @media (min-width: 1024px) and (max-width: 1440px) {
-    header {
-        display:flex;
-        flex-direction:row;
-    }
-
-    header{
-        text-align:left;
-      }
-    
-      header h1 {
-        font-size:3.5em;
-        text-align:left;
-      }
-    #slackLogo{
-        width:100px;
-    }
-    /*
-    nav {
-        background-color: lightseagreen;
-      } */
-
-      nav ul {
-        display:flex;
-        flex-direction:row;
-      }
-     
-      nav ul li a {
-        color:white;
-        display:block;
-        font-size:1em;
-    
-      }
-
-      #menuBtn{
-        display:none;
-      }
-
-      nav div{
-        display:flex;
-      }
-
-      nav div:first-child ul{
-        width:500px;
-        display:flex;
-        flex-direction:flex-start;
-        justify-content: space-around;
-        align-items:center;
-      }
-
-      nav div:last-child{
-        width:370px;
-        display:flex;
-        flex-direction:flex-start;
-        justify-content: space-between;
-        align-items:center;
-      }
-
-      #tryForFreeBtn{
-        color:#540B51;
-        width:90px;
-        height:50px;
-        background-color:#fff;
-        border: 1px solid #540B51;
-        text-transform: uppercase;
-        font-size:1.1em;
-        font-weight: bold;
-        margin: 5px auto;
-      }
-
-      #section-1 {
-        display:flex;
-        justify-content:space-between;
-      }
-
-      #connectednessImageCtn{
-        background-image: url("../images/connectedness.png");
-        width:100%;
-        height:300px;
-        width:100vw;
-      }
-
-      #section-2 {
-        display:flex;
-        flex-direction: row-reverse;
-        justify-content:space-between;
-      }
-
-      #flexibilityImageCtn{
-        background-image: url("../images/flexibility.png");
-        width:100%;
-        height:300px;
-        width:100vw;
-      }
-
-      #section-3 {
-        display:flex;
-        justify-content:space-between;
-      }
-
-      #speedImageCtn{
-        background-image: url("../images/speed.png");
-        width:100%;
-        height:300px;
-        width:100vw;
-      }
-      #teamLarge div{
-        display:flex;
-        justify-content: center;
-        flex-direction: center;
-      }
-
-      .purpleBtn{
-        width:300px;
-      
-      }
-    
-      .whiteBtn {
-        width: 300px;
-
-      }
-
-      #teamLarge ul {
-        display:flex;
-    }
-
-    #welcome div{
-        display:flex;
-        justify-content: center;
-
-    }
-
-    
-    #status {
-        display:flex;
-        font-size:1em;
-      }
-
-      #social {
-        display:flex;
-        justify-content: flex-start;
-        gap:40px;
-        padding: 15px 15px;
-    }
-    
-
-  }
-
-
-  @media (min-width: 1440px) {
-
-
-
-        header {
-            display:flex;
-            flex-direction:row;
-        }
-    
-        header{
-            text-align:left;
-          }
-        
-          header h1 {
-            font-size:3.5em;
-            text-align:left;
-          }
-        #slackLogo{
-            width:100px;
-        }
-        /*
-        nav {
-            background-color: lightseagreen;
-          } */
-    
-          nav ul {
-            display:flex;
-            flex-direction:row;
-          }
-         
-          nav ul li a {
-            color:white;
-            display:block;
-            font-size:1em;
-        
-          }
-    
-          #menuBtn{
-            display:none;
-          }
-    
-          nav div{
-            display:flex;
-          }
-    
-          nav div:first-child ul{
-            width:500px;
-            display:flex;
-            flex-direction:flex-start;
-            justify-content: space-around;
-            align-items:center;
-          }
-    
-          nav div:last-child{
-            width:370px;
-            display:flex;
-            flex-direction:flex-start;
-            justify-content: space-between;
-            align-items:center;
-          }
-    
-          #tryForFreeBtn{
-            color:#540B51;
-            width:90px;
-            height:50px;
-            background-color:#fff;
-            border: 1px solid #540B51;
-            text-transform: uppercase;
-            font-size:1.1em;
-            font-weight: bold;
-            margin: 5px auto;
-          }
-    
-          #section-1 {
-            display:flex;
-            justify-content:space-between;
-          }
-    
-          #connectednessImageCtn{
-            background-image: url("../images/connectedness.png");
-            width:100%;
-            height:300px;
-            width:100vw;
-          }
-    
-          #section-2 {
-            display:flex;
-            flex-direction: row-reverse;
-            justify-content:space-between;
-          }
-    
-          #flexibilityImageCtn{
-            background-image: url("../images/flexibility.png");
-            width:100%;
-            height:300px;
-            width:100vw;
-          }
-    
-          #section-3 {
-            display:flex;
-            justify-content:space-between;
-          }
-    
-          #speedImageCtn{
-            background-image: url("../images/speed.png");
-            width:100%;
-            height:300px;
-            width:100vw;
-          }
-          #teamLarge div{
-            display:flex;
-            justify-content: center;
-            flex-direction: center;
-          }
-    
-          .purpleBtn{
-            width:300px;
-          
-          }
-        
-          .whiteBtn {
-            width: 300px;
-    
-          }
-    
-          #teamLarge ul {
-            display:flex;
-        }
-    
-        #welcome div{
-            display:flex;
-            justify-content: center;
-    
-        }
-    
-        
-        #status {
-            display:flex;
-            font-size:1em;
-          }
-    
-          #social {
-            display:flex;
-            justify-content: flex-start;
-            gap:40px;
-            padding: 15px 15px;
-        }
-        
-
-        #heroImageCtn {
-            background-image: url("../images/hero-product-ui.png");
-            background-size:cover;
-            height:300px;
-            width:80vw;
-        
-          }
-    
-
-    }
+#signUpGoogleBtn img {
+  width: 30px;
+  background:white;
+  padding:10px;
+}
