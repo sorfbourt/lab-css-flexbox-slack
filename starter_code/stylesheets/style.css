@@ -176,7 +176,9 @@ main section div {
     margin: 0 10px 0 0;
     }
 
-
+  #companyLogos {
+    text-align: center;
+  }
 
   #trustedCompanies p {
     text-transform:uppercase;
@@ -264,7 +266,7 @@ footer div ul li {
 }
 
 #status li {
-margin:15px; 0px;
+margin:15px 10px;
 font-weight:bold;
 }
 
